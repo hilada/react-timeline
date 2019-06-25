@@ -1,0 +1,106 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-container {
+  width: 350px;
+  border: 2px solid rgb(247, 182, 62);
+  position: fixed;
+}
+
+.calendar {
+  background-color: white;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calendar-header {
+  border-bottom: 1px dashed rgb(247, 182, 62);
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.calendar-header td {
+  border-spacing: 0;
+  padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+  text-align: center;
+  height: 40px;
+}
+
+.week-day {
+  font-size: 0.8em;
+}
+
+.day {
+  font-size: 0.8em;
+}
+
+.day {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.current-day {
+  background-color: #acafb3;
+  border-radius: 2%;
+  color: white;
+}
+
+.month-popup {
+  position: absolute;
+  padding: 5px;
+  background: white;
+  border: 2px solid rgb(247, 182, 62);
+}
+
+.month-popup div {
+  padding: 0.3em;
+}
+
+.nav-month {
+  position: absolute;
+  top: 0.6em;
+  font-size: 0.6em;
+  right: 3px;
+}
+
+.prev {
+}
+
+.next {
+}
+
+.editor-year {
+  max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+  font-size: 0.6em;
+}
+
+.label-month {
+  cursor: pointer;
+}
+
+.calendar-footer {
+  border-top: 1px dashed rgb(247, 182, 62);
+  font-size: 1.6em;
+  text-align: center;
+}
+.calendar-footer td label {
+  font-size: 1rem;
+}

@@ -1,0 +1,18 @@
+.selectTimeList {
+  position: absolute;
+  margin-left: 15%;
+  background-color: #fff;
+  width: 300px;
+ 
+  padding: 10px 30px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  text-align: center;
+  
+}
+.close {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+

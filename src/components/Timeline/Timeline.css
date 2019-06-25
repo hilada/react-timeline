@@ -1,0 +1,10 @@
+.timeline-nav {
+  position: relative;
+}
+
+.hours {
+  border: 1 px solid #ccc;
+  padding: 5px;
+  margin-left: 20px;
+  background-color: #eee;
+}
